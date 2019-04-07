@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+    
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+        <span>
+          <h1>ScriBBler </h1> 
+          <h3>Explore, Imagine, Create </h3> 
+        </span>
+          
+        <button id='btn1' onClick="modal1()">Sign in</button>
+
+        <button id='btn2' onClick="modal2()">Sign Up</button>
+        
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+           
+        </div>
+           
+        <div class="postButtons">
+
+                
+                        <button type="button" id="btn3" class="button" onClick="location.href='./html/bloglist.html'" >All Posts</button> 
+                        <button type="button" id="btn4" class="button" onClick='modal3()'>Create Post</button>
+                    
+    
+
+        	<!-- Insert code for All Posts & Create Post button here -->
+
+        </div>
+    </div>
+
+    <div>
+        
+        
+       
+        <div id="myModal1" class="modal">
+        <div class="modal-content">
+                
+            <span onclick="document.getElementById('myModal1').style.display='none'" class="close"  >&times;</span>
+                <h2>Welcome Back!</h2>
+                <label> Username </label><br>
+                <input type="text" placeholder="Enter Username"><br>
+                <label> Password </label><br>
+                <input type="text" placeholder="Enter Password"> <br>
+                <button id='sign-in'>Sign In</button><br>
+                <label><h5>Not a member? <a href='' color='blue'>Sign Up</a></h5> </label>
+        </div>
+    	
+    </div>
+
+    <div>
+           
+            
+          <div id="myModal2" class="modal">
+           
+              <div class="modal-content">
+                
+                <h2>Get Started!</h2>
+                <label>Full Name</label><br>
+                <input type="text" placeholder ="Enter Full Name"><br>
+                <label> Enter Username</label><br>
+                <input type="text" placeholder="Enter UserName"><br>
+                <label> Password </label><br>
+                <input type="password" placeholder ="Enter Password"><br>
+                <label>Confirm Password</label><br>
+                <input type="password" placeholder="Confirm Password"><br>
+                <button id='signup'>Sign Up</button>
+
+            </div>
+
+    	 </div> 
+    </div>
+
+    <div>
+            <div id="myModal3" class="modal">
+                    <div class="modal-content">
+                        <span onclick="document.getElementById('myModal3').style.display='none'"  class="close" >&times;</span>
+                            <h2>Pen your post here! </h2>
+                            <label><b>Title :</b>  </label><br>
+                            <input type="text" placeholder="Enter Title"><br>
+                            <label><b>Content : </b> </label><br>
+                            <input type='textArea' width="400px" height="500px" placeholder="Write your text here."> <br>
+                            <button id='create'>Create</button><br>
+                            
+                    </div>
+                    
+    	<!-- Insert code for Create Post modal here -->
+
+    </div>
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>

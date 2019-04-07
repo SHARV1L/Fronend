@@ -1,0 +1,116 @@
+.post {
+    width: 50%;
+    height: 30%;
+    background: #fff;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    margin: 10px 10px 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+    
+.post-left {
+        width: 15%;            
+        max-width: 15%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+}
+
+.post-content {
+        width: 75%;           
+        display: table-cell;
+        text-align: left;
+        background-color: #E8E8E8;
+        color: #000000;
+        border-radius: 0 15px 15px 0;
+        padding: 0 20px;
+             
+}
+
+.post-title{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 25px;
+    height: 25px;
+    }
+
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important ;
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+
+.post-desc{
+    height: 100px;
+    margin-bottom: 0 !important;
+    overflow:auto;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    color: #fff;
+    background-color: orange;
+    background-size: 2000% 2000%;
+}
+
+.allPostsContainer {
+    height: 100%;
+    width: 100%;
+}
+
+
+.fa-trash:before {
+    position: absolute;
+    margin-top: 1px;
+    margin-right: 2px;
+    
+}
+.fa-ellipsis-h:before {
+    position: absolute;
+    margin-top: 1px;
+    margin-right: 2px;
+    
+}
+
+#yes{
+    background-color: red;
+    color:white;
+    text-align: center;
+    margin:30px;
+
+}
+
+#No{
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.modalDelete{
+  display: none;
+  position: fixed;  
+  left: 40%;
+  top: 20%;
+  bottom: 200px;
+  width: 40%; 
+  height: 30%; 
+  overflow: auto; 
+  background-color:rgb(0,0,0); 
+  background-color: white;
+}
+
+
