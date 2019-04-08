@@ -1,0 +1,45 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+h1{
+ color: blue;
+ font-family:  'Satisfy',cursive;
+ margin: 5px;
+}
+
+h3{
+ font-family: 'Satisfy',cursive;
+ margin:  5px;
+}
+
+
+
+#btn1
+{
+    position: absolute;
+    top: 0px;
+    right: 110px;
+    background-color: blue;
+    color: white;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    width:100px;
+    vertical-align: top;    
+}
+#btn2
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: blue;
+    color: white;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    width:100px;
+    vertical-align: top;
+}
+
+

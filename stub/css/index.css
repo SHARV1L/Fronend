@@ -1,0 +1,252 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+meta {
+  display: none;
+}
+
+.button
+{
+    background-color: yellow;
+    color: black;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    width:100px;
+    
+}
+.postButtons
+{   
+    margin-top:200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;   
+}
+
+.modal1{
+    display: none;
+    position: absolute; /* Stay in place */  
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  padding-top: 10%;
+  padding-bottom: 25%;
+  padding-left: 40%;
+  padding-right: 40%;
+  width: 20%; /* Full width */
+  height: 50%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+   /* Fallback color */
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);  
+}
+.modal1-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 300px;
+  height: 400px;
+}
+
+.modal2{
+  display: none;
+  position: absolute; /* Stay in place */
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  padding-top: 10%;
+  padding-bottom: 25%;
+  padding-left: 40%;
+  padding-right: 40%;
+width: 20%; /* Full width */
+height: 60%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color:rgb(0,0,0); /* Fallback color */
+background-color: white; /* Black w/ opacity */
+background-color: rgba(0, 0, 0, 0.6);
+}
+.modal2-content{
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border-radius: 4px;
+max-width: 300px;
+height: 600px;
+}
+
+
+
+.modal3{
+  display: none;
+  position: absolute; /* Stay in place */
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  padding-top: 10%;
+  padding-bottom: 25%;
+  padding-left: 30%;
+  padding-right: 40%;
+width: 40%; /* Full width */
+height: 68%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgba(0, 0, 0, 0.6);
+}
+.modal3-content{
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border-radius: 4px;
+max-width: 630px;
+height: 611px;
+}
+
+
+.close1 {
+    position: absolute;
+    left: 57%;
+    top: 198px;
+    color:grey;
+    font-size: 40px;
+    font-weight: bold;
+  }
+ .close1:hover,
+.close1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close2 {
+  position: absolute;
+  left: 57%;
+  top: 198px;
+  color:grey;
+  font-size: 40px;
+  font-weight: bold;
+}
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close3 {
+  position: absolute;
+  left: 59%;
+  top: 198px;
+  color:grey;
+  font-size: 40px;
+  font-weight: bold;
+}
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;    
+}
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+
+hr{
+ 
+ 
+  border-style: inset;
+  border-width: auto;
+  width: 100%;
+}
+
+label{
+    font-size: 18px;
+    margin-top: 10px;
+    border: 0;
+    text-align: left;
+    align-content: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+input{
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
+
+#sign-in{
+  font-size: 18px;
+   background-color:green;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 0;
+    height: 45px;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+h5{
+  font-size: 14px;
+    margin-top: 10px;
+    border: 0;
+    text-align: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text{
+  width: 600px;
+  height: 300px;
+  
+}
+
+#create{
+  background-color: green;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 0;
+  cursor: pointer;
+  margin-left: 45%;
+  height: 45px;
+  align-content: center;
+}
+
+#signup{
+  background-color: green;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 0;
+  cursor: pointer;
+  height: 45px; 
+  align-content: center;
+  width: 100%;
+}

@@ -1,0 +1,306 @@
+.allPostsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.post {
+    width: 40%;
+    height: 40%;
+    background: #fff;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    margin: 10px 10px 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+   }
+    
+.post-left {
+        margin-top: 10%;
+        margin-left:3%;
+        width: 15%;            
+        max-width: 30%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+}
+
+.post-content {
+        width: 75%;           
+        display: table-cell;
+        text-align: left;
+        background-color: #E8E8E8;
+        color: #000000;
+        border-radius: 0 15px 15px 0;
+        padding: 0 20px;
+             
+}
+
+.post-title{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 25px;
+    height: 25px;
+    }
+
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important ;
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+
+.post-desc{
+    height: 100px;
+    margin-bottom: 0 !important;
+    overflow:auto;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    color: #fff;
+    background-color: orange;
+    background-size: 2000% 2000%;
+}
+
+.allPostsContainer {
+    height: 100%;
+    width: 100%;
+}
+
+
+.fa-trash:before {
+    position: relative;
+    margin-top: 1px;
+    
+    left:550px;
+    
+}
+.fa-ellipsis-h:before {
+    position: relative;
+    margin-bottom: 1px;
+    left:550px;
+    
+}
+
+#yes{
+    position:absolute;
+    left:41%;
+    background-color: red;
+    color:white;
+    text-align: center;
+    height: 40px;
+    width: 125px;
+    margin:10px;
+    cursor: pointer;
+}
+
+#No{
+  position:absolute;
+  left:51%;
+    background-color: green;
+    color: white;
+    text-align: center;
+   margin:10px;
+    height: 40px;
+    width: 125px;
+    cursor: pointer;
+}
+
+
+.modalDelete{
+  display: none;
+    position: absolute; /* Stay in place */  
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    padding-top: 21%;
+    padding-bottom: 25%;
+    padding-left: 40%;
+    padding-right: 40%;
+    width: 20%; /* Full width */
+    height: 40%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+   /* Fallback color */
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.modal1{
+    display: none;
+    position: absolute; /* Stay in place */  
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  padding-top: 10%;
+  padding-bottom: 25%;
+  padding-left: 40%;
+  padding-right: 40%;
+  width: 20%; /* Full width */
+  height: 50%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+   /* Fallback color */
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);  
+}
+.modal1-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 300px;
+  height: 400px;
+}
+.close1 {
+    position: absolute;
+    left: 57%;
+    top: 198px;
+    color:grey;
+    font-size: 40px;
+    font-weight: bold;
+  }
+ .close1:hover,
+.close1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal2{
+    display: none;
+    position: absolute; /* Stay in place */
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    padding-top: 10%;
+    padding-bottom: 25%;
+    padding-left: 40%;
+    padding-right: 40%;
+  width: 20%; /* Full width */
+  height: 60%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color:rgb(0,0,0); /* Fallback color */
+  background-color: white; /* Black w/ opacity */
+  background-color: rgba(0, 0, 0, 0.6);
+  }
+  .modal2-content{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 300px;
+  height: 600px;
+  }
+  .close2 {
+    position: absolute;
+    left: 57%;
+    top: 198px;
+    color:grey;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .close2:hover,
+  .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;   
+    color: #000000; 
+}
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+
+hr{
+    border-style: inset;
+    border-width: auto;
+    width: 100%;
+}
+
+label{
+    color: #000000;
+    font-size: 18px;
+    margin-top: 10px;
+    border: 0;
+    text-align: left;
+    align-content: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+} 
+
+#sign-in{
+    font-size: 18px;
+     background-color:green;
+      color: #fff;
+      font-size: 16px;
+      margin-top: 10px;
+      border: 0;
+      height: 45px;
+      cursor: pointer;
+      text-align: center;
+      align-content: center;
+      width: 100%;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  #signup{
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+    height: 45px; 
+    align-content: center;
+    width: 100%;
+  }
+  
+  h5{
+    font-size: 14px;
+      margin-top: 10px;
+      border: 0;
+      text-align: center;
+      align-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #000000;
+  }
+
+ 
+.modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 400px;
+    height: 120px;
+}
+
+#h2{
+  
+  font-family: 'Times New Roman';
+  font-size: 18px;
+  color: #2b312b;
+}
