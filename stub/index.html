@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
  
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Place all CSS for header in this file -->
     <link href='css\header.css' rel='stylesheet' type='text/css'>
@@ -32,22 +35,14 @@
         </div>
            
         <div class="postButtons">
-
-                
                         <button type="button" id="btn3" class="button" onClick="location.href='./html/bloglist.html'" >All Posts</button> 
                         <button type="button" id="btn4" class="button" onClick='modal3()'>Create Post</button>
-                    
-    
-
         	<!-- Insert code for All Posts & Create Post button here -->
 
         </div>
     </div>
 
     <div>
-        
-        
-       
         <div id="myModal1" class="modal1">
         <div class="modal1-content">     
             <span onclick="document.getElementById('myModal1').style.display='none'" class="close1"  >&times;</span>
@@ -62,14 +57,13 @@
                 <button id='sign-in'>Sign In</button><br>
                 <h5>Not a member? <a href='' color='blue'>Sign Up</a></h5>  
         </div>
-    </div>
-    <div>
-           
-            
-          <div id="myModal2" class="modal2">
-              <div class="modal2-content"> 
+        </div>
+
+        <div>     
+            <div id="myModal2" class="modal2">
+               <div class="modal2-content"> 
                 <span onclick="document.getElementById('myModal2').style.display='none'" class="close2" >&times;</span>
-            <form>
+                <form>
                 <h2>Get Started!</h2>
                 <hr>
                 <label>Full Name</label><br>
@@ -80,30 +74,28 @@
                 <input type="password" placeholder ="Enter Password"><br>
                 <label>Confirm Password</label><br>
                 <input type="password" placeholder="Confirm Password"><br>
-            </form>    
+                </form>    
                 <button id='signup'>Sign Up</button>
-            </div>
-    	 </div> 
-    </div>
+                </div>
+    	    </div> 
+        </div>
 
-    <div>
+        <div>
             <div id="myModal3" class="modal3">
-                    <div class="modal3-content">
-                        <span onclick="document.getElementById('myModal3').style.display='none'"  class="close3" >&times;</span>
-                        <form>
-                            <h2>Pen your post here! </h2>
-                            <label><b>Title :</b>  </label><br>
-                            <input type="text" placeholder="Enter Title"><br>
-                            <label><b>Content : </b> </label><br>
-                            <input type='textArea' id='text' width="400px" height="500px" placeholder="Write your text here."> <br>
-                        </form>
-                            <button id='create'>Create</button><br>
-                            
-                    </div>
-                    
-    	<!-- Insert code for Create Post modal here -->
-
-    </div>
+                <div class="modal3-content">
+                <span onclick="document.getElementById('myModal3').style.display='none'"  class="close3" >&times;</span>
+                <form>
+                <h2>Pen your post here! </h2>
+                <label><b>Title :</b>  </label><br>
+                <input type="text" placeholder="Enter Title"><br>
+                <label><b>Content : </b> </label><br>
+                <input type='textArea' id='text' width="400px" height="500px" placeholder="Write your text here."> <br>
+                </form>
+                <button id='create'>Create</button><br>
+                </div>
+        </div>           
+        <!-- Insert code for Create Post modal here -->
+    
 
 	<!-- Place all Javascript for header in this file -->
 	<script src="js\header.js"></script>
